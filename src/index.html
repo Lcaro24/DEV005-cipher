@@ -4,11 +4,26 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <enlace href="https: //fonts.googleapis.com/css2? familia= Lato &family= Montserrat:wght@100 & family= Patrick+Hand & display=swap" rel="stylesheet"></enlace>
+ 
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Crear contraseña segura </h1>
+      <p>En está aplicación podras cifrar tu contraseña </p>
+
+      <section id="Cifrado">
+        <label>Ingrese nueva contraseña</label>
+        <input type="text"name="contraseña" id="contraseña">
+        <label >Seleccione numero de desplazamiento</label>
+        <input type="number" id="número"  name="número" min="1" max="5" />
+        <input type="button" id="Boton-cifrar" value="cifrar"></button>
+        <input type="button" id="Boton-Descifrar" value="Descifrar"></button>
+        <div id="Resultado"></div>
+      </section>
+
     </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
